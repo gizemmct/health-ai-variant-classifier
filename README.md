@@ -1,6 +1,6 @@
 # health-ai-variant-classifier
 
-Branch: veri-on-isleme
+BRANCH: veri-on-isleme
 
 Görev: Gelen ham veri matrisinin algoritmik hatalardan arındırılması, model değerlendirme altyapısının kurulması ve referans metriklerin oluşturulması.
 
@@ -15,7 +15,7 @@ Dengesizlik Çözümü (SMOTE): Filtreleme sonrası azınlıkta kalacak sınıfl
 
 Çapraz Doğrulama ve Benchmark: Sınıf dağılımlarının sabit kalması için StratifiedKFold ile 5-katmanlı veri bölme altyapısını kodlar. Ana mimariye kıyaslama oluşturması için RandomForestClassifier ve LogisticRegression temel modellerini kurarak ilk referans metrikleri çıkarır.
 
-Branch: biyoinformatik-temsilleme
+BRANCH: biyoinformatik-temsilleme
 
 Görev: Veri setindeki biyolojik ham bilgilerin (string/metin), makine öğrenmesi modellerinin işleyebileceği matematiksel vektörlere dönüştürülmesi ve takımın genel koordinasyonu.
 
@@ -30,7 +30,7 @@ Polarite Değişim Etiketi: Nötr amino asitlerin artı/eksi yüklü amino asitl
 
 Kodon Kullanım Sıklığı (Codon Usage Bias): Eski ve yeni kodonların vücutta bulunma sıklığı farkını literatürden çekerek (veya veri setindeki kodon tablosundan hesaplayarak) yeni bir öznitelik olarak entegre eder.
 
-Branch: model-optimizasyon
+BRANCH: model-optimizasyon
 
 Görev: Veri boru hattı (pipeline) tamamlanmış matrisler üzerinde, projenin en yüksek başarımlı ana tahminleme modellerinin inşası ve şeffaflaştırılması.
 
