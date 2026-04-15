@@ -3,6 +3,7 @@
 Branch: veri-on-isleme
 
 Görev: Gelen ham veri matrisinin algoritmik hatalardan arındırılması, model değerlendirme altyapısının kurulması ve referans metriklerin oluşturulması.
+
 Kullanılacak Kütüphaneler: scikit-learn (KNNImputer, RobustScaler, MinMaxScaler, IsolationForest, StratifiedKFold, RandomForestClassifier, LogisticRegression), imbalanced-learn (SMOTE).
 Veri Setine Uygulanışı:
 Eksik Veri (NaN) ve Normalizasyon: Kaggle veri setindeki sayısal özniteliklerin (popülasyon frekansları vb.) normalizasyonunu (Robust/Min-Max Scaler) yapıp, eksik değerleri KNNImputer algoritması ile mesafe temelli olarak doldurur.
